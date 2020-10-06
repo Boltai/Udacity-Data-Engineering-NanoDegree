@@ -4,7 +4,7 @@ This data warehouse project from the Udacity Data Engineering nanodegree creates
 
 The purpose of this project is to  create a redshift cluster in aws and stage the data there before loading it into the star schema tables.
 
-`Note: To reproduce this  you must put in your own AWS details into the DWH.cfg.`
+`Note: To reproduce this  you must put in your own AWS details into the DWH.cfg and launch your own Redshift Cluster`
 
 ## Star Schema Design
 The star schema has one fact table: "songplays", and four dimensions:"users", "artists", "songs" and "time". The queries to drop, create and insert the the data into the tables is contained within sql_queries.py.
