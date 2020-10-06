@@ -14,7 +14,7 @@ This design allows easy reporting on all areas within the data with each dimensi
 The data is taken from an s3 bucket and moved to these via 2 staging tables, stage_events and stage_songs. 
 
 
-![StarSchema](Images/db.png)
+![StarSchema](images/db.png)
 
 
 ## Scripts
